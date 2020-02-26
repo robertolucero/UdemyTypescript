@@ -1,1 +1,5 @@
-console.log('Hi there! 123')
+import { Sorter } from "./sorter";
+
+const sorter = new Sorter([10, 3, -5, 0]);
+sorter.sort();
+console.log(sorter.collection);
