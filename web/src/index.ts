@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // const user = new User({ name: 'Ramiro', age: 13, id: 2 });
 
-const user = new User({ age: 9, name: 'Octavio' });
+const user = new User({ age: 13, name: 'Ramiro' });
 
 user.save();
 
